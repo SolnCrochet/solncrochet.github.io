@@ -266,3 +266,79 @@ footer {
     text-align: center;
     padding: 30px;
 }
+
+/* ===== ADAPTATION TELEPHONE ===== */
+
+@media (max-width: 700px) {
+
+    header {
+        padding: 35px 15px;
+    }
+
+
+    .logo {
+        font-size: 42px;
+    }
+
+
+    header p {
+        font-size: 17px;
+    }
+
+
+    nav a {
+        display: inline-block;
+        margin: 8px;
+        font-size: 15px;
+    }
+
+
+
+    .hero {
+        flex-direction: column;
+        padding: 50px 20px;
+        text-align: center;
+    }
+
+
+    .hero h2 {
+        font-size: 32px;
+    }
+
+
+    .hero p {
+        font-size: 17px;
+    }
+
+
+    .hero-placeholder {
+        width: 220px;
+        height: 220px;
+    }
+
+
+
+    .values {
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .values div {
+        width: 80%;
+    }
+
+
+
+    .card {
+        width: 80%;
+    }
+
+
+
+    .about {
+        margin: 20px;
+        padding: 30px 20px;
+    }
+
+}
